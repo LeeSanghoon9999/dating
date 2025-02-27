@@ -49,3 +49,9 @@ export const scrollable = style([
 
 // 하단 네비게이션 바 스타일 (현재 추가 스타일 없음, 확장 가능)
 export const bottom = style({});
+
+// 추가: 구글맵 컨테이너 스타일 정의
+export const mapContainer = style({
+  width: "100%",
+  height: "300px",
+});
