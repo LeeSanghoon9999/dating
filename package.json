@@ -5,14 +5,15 @@
   "keywords": [
     "gatsby"
   ],
-  "author": "Tony",
+  "author": "Sanghoon",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
     "dev": "gatsby develop",
     "format": "eslint --fix --ignore-path .gitignore && prettier -w .",
     "start": "gatsby serve",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "vercel-build": "yarn install --frozen-lockfile && gatsby build"
   },
   "dependencies": {
     "@parcel/core": "^2.13.3",
